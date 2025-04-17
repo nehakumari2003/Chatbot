@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neo 🧠 - Your AI Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+  <div class="container">
+    <header class="animated-header">
+      <h1 class="slide-in">
+        🤖 Meet Neo - Your Smart Chat Assistant
+        <span id="themeToggle" onclick="toggleTheme()">🌙</span>
+      </h1>
+
+      <label for="pdfInput" class="pdf-label">📁 Choose PDF File</label>
+      <input type="file" id="pdfInput" accept=".pdf" class="pdf-upload" />
+    </header>
+
+    <div class="main-layout">
+      <div class="ask-section glass">
+        <label for="userInput">📨 Ask me anything (from PDF or general):</label>
+        <div class="chat-input">
+          <input type="text" id="userInput" placeholder="Type your question here...">
+          <button onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+
+      <main id="messages" class="messages glass"></main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
