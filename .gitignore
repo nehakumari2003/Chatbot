@@ -1,0 +1,46 @@
+# =====================
+# Python (Backend)
+# =====================
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment folders
+env/
+venv/
+backend/env/
+
+# Environment variables
+.env
+backend/.env
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# =====================
+# Node / React (if used)
+# =====================
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# =====================
+# General
+# =====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# =====================
+# VS Code
+# =====================
+.vscode/
+
+
